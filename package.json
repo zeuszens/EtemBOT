@@ -1,38 +1,25 @@
 {
-  "name": "EtemBOT",
+  "name": "etembot",
   "version": "1.0.0",
-  "description": "Techson'un botu",
+  "description": "",
   "main": "index.js",
-  "engines": {
-    "node": "5.0.0",
-    "npm": "4.6.1"
-  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/XianhaiC/Voice-Bot.git"
+    "test": "node index.js"
   },
   "author": "Techson",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/XianhaiC/Voice-Bot/issues"
-  },
-  "homepage": "https://github.com/XianhaiC/Voice-Bot#readme",
   "dependencies": {
-    "discord.js": "^11.2.1",
-    "ffmpeg": "0.0.4",
+    "discord.js": "^11.4.2",
+    "ffmpeg-binaries": "^4.0.0",
     "fluent-ffmpeg": "^2.1.2",
     "fs": "0.0.1-security",
-    "get-youtube-id": "^1.0.0",
+    "get-youtube-id": "^1.0.1",
     "imgur-search": "^1.0.1",
-    "node-opus": "^0.2.7",
     "node-witai-speech": "^1.0.2",
-    "request": "^2.83.0",
-    "underscore": "^1.8.3",
-    "youtube-info": "^1.1.2",
-    "ytdl-core": "^0.18.1"
+    "node-opus": "^0.3.1",
+    "request": "^2.88.0",
+    "underscore": "^1.9.1",
+    "youtube-info": "^1.3.2",
+    "ytdl-core": "^0.29.1"
   }
 }
