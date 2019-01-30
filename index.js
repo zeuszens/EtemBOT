@@ -11,16 +11,6 @@ const path = require('path');
 const opus = require('node-opus');
 
 var config = JSON.parse(fs.readFileSync("./settings.json", "utf-8"));
-var express = require('express');
-var app = express();
-var path = require('path');
-
-
-app.use(express.static(__dirname + '/'));
-app.get('*', (req, res) =>{
-    res.sendFile(path.resolve(__dirname, './src/index.html'));
-});
-app.listen(process.env.PORT || 5000);
 
 const WIT_API_KEY = config.wit_api_key;
 const YT_API_KEY = config.yt_api_key;
